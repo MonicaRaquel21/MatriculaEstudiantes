@@ -56,6 +56,13 @@
 			background-color: #A62828;
 		}
 
+        .myDiv {
+  border: 5px outset lightblue  ;
+  background-color: lightblue;
+  text-align: center;
+  color:navy;
+}
+
 
 	</style>
 	<div class="wrap">
@@ -68,14 +75,22 @@
 
 		<div class="secciones">
 			<article id="tab1">
-				<h1>Inicio</h1>
+				
 				<center>
-				<img src="img/matricula2.jpg" alt="Girl in a jacket" width="500" height="">
-				<div id="main-container">
+				<div class="myDiv">
+             <h2>BIENVENIDO AL SISTEMA DE MATRÍCULA EN LÍNEA</h2>
+            
+ 
+</div>  
+<br>
+
+          <h2>REQUISITOS</h2>
+<br>
+<div class="requisitos"> </div>
 
 				</center>
 					<a href="Registro.php" class="btn btn-green">Iniciar Proceso de Matricula</a>
-					<a href="instrucciones.html" class="btn btn-red">Requisitos</a>
+					<a href="instrucciones.html" class="btn btn-red">Llevame a Requisitos</a>
 				</div>
 			</article>
 			<article id="tab2">

@@ -30,11 +30,20 @@
                         <br>
                         <input type="text" placeholder=" Ingrese Nombres" class="step__input">
                         <input type="text" placeholder="Ingrese Apellidos" class="step__input">
-                        <p>Codigo del Estudiante</p>
+                      
                         <input type="number" placeholder="Edad" class="step__number">
-                         <p>Registre fecha de Nacimiento</p>
-                        <input id="date" type="date"  class="step__input"> 
-                        <input type="number" placeholder="Edad" class="step__number">
+                        <input type="text" placeholder="Teléfono Movil de Estudiante" class="step__input">
+                        <input type="email" placeholder="Correo Electronico" class="step__input">
+                          
+                        <textarea id="w3review" name="w3review" rows="4" cols="50"class="step__textarea" placeholder="Ingrese la dirección de residencia actual"></textarea>
+                        <p>¿nivel Academico ?</p>
+                         <select name="select"  class="step__option">
+                        <option value="value1"selected>Kinder</option> 
+                        <option value="value2" >primergrado</option>
+                        <option value="value3">noveno</option>
+                       
+                         </select>
+                       
                         <p>¿De que institución proviene?</p>
                         <input type="text" placeholder=" " class="step__input">
 
@@ -53,61 +62,23 @@
                         <input type="text" placeholder=" " class="step__input">
                         <p>Nombre de recomienda</p>
                         <input type="text" placeholder=" " class="step__input">
+                        <input type="text" placeholder=" Religión" class="step__input">
 
-                        <select name="select"  class="step__option">
-                        <option value="value1"selected>Seleccione Sexo</option> 
-                        <option value="value2" >Femenino</option>
-                        <option value="value3">Masculino</option>
-                         </select>
+                      
 
-                          <input type="text" placeholder="Teléfono Movil de Estudiante" class="step__input">
-                          <input type="email" placeholder="Correo Electronico" class="step__input">
-                          <p> Ingrese el N° de DUI o Carnet de Menoridad del Estudiante</p>
-                          <input type="text" placeholder="Dui o Carnet" class="step__input">
-                          <input type="text" placeholder="Nacionalidad" class="step__input">
-                          <textarea id="w3review" name="w3review" rows="4" cols="50"class="step__textarea" placeholder="Ingrese la dirección de residencia actual"></textarea>
-                          <select name="select"  class="step__option">
-                           <option value="value1" selected>Departamento</option> 
-                            <option value="value2" >San Salvador</option>
-                            <option value="value3">Cuscatlan</option>
-                            <option value="value3">La Libertad</option>
-                            </select>
-
+                          
+                     
+                         
                             
                     
 
-                         <p>Zona en la que reside el estudiante</p>
-                         <select name="select"  class="step__option">
-                        <option value="value1"selected>Rural</option> 
-                        <option value="value2" >Urbana</option>
-                        </select>
-                         
-                          <p>¿Con quien vive el estudiante?</p>
-                          <select name="select"  class="step__option">
-                        <option value="value1"selected>Madre</option> 
-                        <option value="value2" >padre</option>
-                        <option value="value3">Madre y Padre</option>
-                        <option value="value4">familiar</option>
-                        <option value="value4">Otro</option>
-                         </select>
-
-                          
-                         <p>¿De quien depende ecónomicamente el estudiante?</p>
-                         <select name="select"  class="step__option">
-                        <option value="value1"selected>Madre</option> 
-                        <option value="value2" >padre</option>
-                        <option value="value3">Madre y Padre</option>
-                        <option value="value4">familiar</option>
-                        <option value="value4">Otro</option>
-                         </select>
                         
-                         <p>¿nivel Academico ?</p>
-                         <select name="select"  class="step__option">
-                        <option value="value1"selected>Kinder</option> 
-                        <option value="value2" >primergrado</option>
-                        <option value="value3">noveno</option>
-                       
-                         </select>
+                         
+                     
+                          
+                        
+                        
+                        
 
                          
                         
@@ -162,6 +133,16 @@
                         <button type="button" class="step__button step__button--back" data-to_step="1" data-step="2">Regresar</button>
                         <button type="button" class="step__button step__button--next" data-to_step="3" data-step="2">Siguiente</button>
                     </div>
+
+                    <p>¿Con quien vive el estudiante?</p>
+                          <select name="select"  class="step__option">
+                        <option value="value1"selected>Madre</option> 
+                        <option value="value2" >padre</option>
+                        <option value="value3">Madre y Padre</option>
+                        <option value="value4">familiar</option>
+                        <option value="value4">Otro</option>
+                         </select>
+
                 </div>
                 <div class="step" id="step-3">
                     <div class="step__header">
