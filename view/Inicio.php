@@ -52,7 +52,7 @@
 
 	<div id="main-container">
 		<a href="Registro.php" class="btn btn-green">Iniciar Proceso de Matricula</a>
-		<a href="instrucciones.html" class="btn btn-red">Instrucciones</a>
+		<a href="instrucciones.html" class="btn btn-red">Requisitos</a>
 	</div>
 	
 </body>
