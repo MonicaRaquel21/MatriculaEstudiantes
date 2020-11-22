@@ -1,1 +1,1 @@
-estudiantes registrados
+Todos los estudiantes registrados.
